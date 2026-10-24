@@ -1,0 +1,22 @@
+{
+  "messages": [
+    {
+      "id": "crush",
+      "label": "THE CRUSH",
+      "body": "I think Alex likes me. Help.",
+      "intended": "Besties",
+      "actual": "Alex",
+      "consequence": "Alex is typing. Your friends never got the question.",
+      "avoided": "Your crush analysis stays in the trusted chat."
+    },
+    {
+      "id": "leftovers",
+      "label": "THE LEFTOVERS",
+      "body": "Who ate my leftovers AGAIN?",
+      "intended": "Flatmates",
+      "actual": "Family Group",
+      "consequence": "Mum starts a family-wide fridge investigation.",
+      "avoided": "The family is spared the leftovers investigation."
+    }
+  ]
+}

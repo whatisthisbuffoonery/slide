@@ -1,0 +1,200 @@
+{
+  "id": "01-work-chat",
+  "name": "01 / CHECK THE RECIPIENT",
+  "tip": "Dodge the message cards. Collect the beacons, then reach the exit.",
+  "spawn": [
+    0,
+    0.42,
+    0
+  ],
+  "goal": [
+    11,
+    0.6,
+    28
+  ],
+  "messages": "messages.json",
+  "checkpoints": [
+    [
+      0,
+      0.5,
+      14
+    ],
+    [
+      11,
+      0.5,
+      14
+    ]
+  ],
+  "platforms": [
+    {
+      "center": [
+        0,
+        -0.4,
+        0
+      ],
+      "size": [
+        8,
+        0.8,
+        8
+      ],
+      "color": [
+        0.12,
+        0.32,
+        0.4
+      ]
+    },
+    {
+      "center": [
+        0,
+        -0.4,
+        7
+      ],
+      "size": [
+        3,
+        0.8,
+        8
+      ],
+      "color": [
+        0.12,
+        0.32,
+        0.4
+      ]
+    },
+    {
+      "center": [
+        0,
+        -0.4,
+        14
+      ],
+      "size": [
+        7,
+        0.8,
+        7
+      ],
+      "color": [
+        0.12,
+        0.32,
+        0.4
+      ]
+    },
+    {
+      "center": [
+        6,
+        -0.4,
+        14
+      ],
+      "size": [
+        7,
+        0.8,
+        2.4
+      ],
+      "color": [
+        0.12,
+        0.32,
+        0.4
+      ]
+    },
+    {
+      "center": [
+        11,
+        -0.4,
+        14
+      ],
+      "size": [
+        5,
+        0.8,
+        5
+      ],
+      "color": [
+        0.12,
+        0.32,
+        0.4
+      ]
+    },
+    {
+      "center": [
+        11,
+        -0.4,
+        21
+      ],
+      "size": [
+        2.5,
+        0.8,
+        10
+      ],
+      "color": [
+        0.12,
+        0.32,
+        0.4
+      ]
+    },
+    {
+      "center": [
+        11,
+        -0.4,
+        28
+      ],
+      "size": [
+        8,
+        0.8,
+        6
+      ],
+      "color": [
+        0.12,
+        0.32,
+        0.4
+      ]
+    }
+  ],
+  "obstacles": [
+    {
+      "position": [
+        0,
+        0.75,
+        7
+      ],
+      "amplitude": 3.5,
+      "speed": 1.1,
+      "phase": 0,
+      "message": "work-rant"
+    },
+    {
+      "position": [
+        11,
+        0.75,
+        22
+      ],
+      "amplitude": 3.2,
+      "speed": 1.2,
+      "phase": 1,
+      "message": "surprise"
+    }
+  ],
+  "audio": {
+    "music": "audio/music.wav",
+    "jump": "audio/jump.wav",
+    "checkpoint": "audio/checkpoint.wav",
+    "defeat": "audio/defeat.wav",
+    "victory": "audio/victory.wav",
+    "music_volume": 0.25,
+    "effects_volume": 0.75
+  },
+  "test_route": [
+    [
+      0,
+      0,
+      14
+    ],
+    [
+      11,
+      0,
+      14
+    ],
+    [
+      11,
+      0,
+      28
+    ]
+  ],
+  "test_jumps": []
+}

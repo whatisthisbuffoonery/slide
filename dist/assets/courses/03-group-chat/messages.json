@@ -1,0 +1,22 @@
+{
+  "messages": [
+    {
+      "id": "guest-list",
+      "label": "THE GUEST LIST",
+      "body": "Please don't invite Jamie.",
+      "intended": "Small Hangout",
+      "actual": "Weekend Plans",
+      "consequence": "Jamie replies with a thumbs-up. The plans get awkward.",
+      "avoided": "Jamie never sees the unfiltered guest-list debate."
+    },
+    {
+      "id": "exit-speech",
+      "label": "THE EXIT SPEECH",
+      "body": "I'm leaving. Too much drama.",
+      "intended": "Notes to Self",
+      "actual": "The Whole Group",
+      "consequence": "Everyone wants to know who you meant by 'drama'.",
+      "avoided": "Your dramatic exit speech remains an unsent draft."
+    }
+  ]
+}

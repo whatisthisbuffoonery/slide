@@ -1,0 +1,19 @@
+SLIDE - Wrong group chat
+
+Enter starts/continues. WASD or arrows move. Space jumps. Shift brakes.
+R retries from your checkpoint. Escape pauses. M mutes.
+Backspace restarts the course. F5 reloads its JSON and WAV files.
+Page Up / Page Down scroll longer consequence recaps. Q quits from menus.
+
+Edit assets/courses/<course>/course.json and messages.json.
+Replace its audio/*.wav files with 16-bit PCM WAV tracks (mono or stereo).
+No recompilation is required. Press F5 to reload the current course.
+Reload/restart clears current-course history; checkpoint retry preserves it.
+
+Touching a message card sends that message to the wrong chat.
+The defeat screen explains the consequence. Enter retries.
+The finish screen remembers the messages hit and avoided.
+
+Run Slide.exe --validate to check all course assets (validation.log).
+Run Slide.exe --smoke for hidden Windows rendering checks.
+Keep assets/ and shaders/ beside Slide.exe when sharing.

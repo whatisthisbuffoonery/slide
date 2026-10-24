@@ -1,0 +1,22 @@
+{
+  "messages": [
+    {
+      "id": "work-rant",
+      "label": "THE WORK RANT",
+      "body": "This meeting could've been a nap.",
+      "intended": "Besties",
+      "actual": "Project Team",
+      "consequence": "Your manager volunteers you to run the next meeting.",
+      "avoided": "Your meeting review stays between friends."
+    },
+    {
+      "id": "surprise",
+      "label": "THE SURPRISE",
+      "body": "Don't tell Sam about the party.",
+      "intended": "Party Planning",
+      "actual": "Sam + Friends",
+      "consequence": "Sam asks what time to start acting surprised.",
+      "avoided": "Sam still has no idea. The surprise survives."
+    }
+  ]
+}
